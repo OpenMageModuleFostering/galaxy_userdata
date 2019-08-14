@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Galaxy_Userdata>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Galaxy_Userdata>
+    </modules>
+</config> 
