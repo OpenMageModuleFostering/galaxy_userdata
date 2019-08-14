@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Galaxy_Userdata</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>this extension will provide users data that comes once to register or checkout page and didn't finished with registration.</summary>
+    <description>this extension will provide users data that comes once to register or checkout page and didn't finished with registration.</description>
+    <notes>Userdata Extension developed by Galaxy weblinks</notes>
+    <authors><author><name>Vivek</name><user>galaxyweblinks</user><email>vivek.jha@galaxysofttech.co.in</email></author><author><name>Vinod Khajja</name><user>vinikhajja</user><email>vini.khajja@gmail.com</email></author></authors>
+    <date>2014-07-08</date>
+    <time>11:14:23</time>
+    <contents><target name="magelocal"><dir name="Galaxy"><dir name="Userdata"><dir name="Block"><dir name="Adminhtml"><dir name="Userdata"><dir name="Edit"><file name="Form.php" hash="ba952a40fb84200c380027c9efaa755c"/><dir name="Tab"><file name="Form.php" hash="0871e94c29e77680bd587daae0c60b94"/></dir><file name="Tabs.php" hash="a21237ef5efdcafcbe054359dc459139"/></dir><file name="Edit.php" hash="e191bee139b4f0e44d41e99ab78e312f"/><file name="Grid.php" hash="28c5db828c996bcde63dd4de22266071"/></dir><file name="Userdata.php" hash="a585d74fc3ff0891f9644352117cb1e4"/></dir><file name="Userdata.php" hash="cef8922e2f9f119ab33a9159c7e17e69"/></dir><dir name="Helper"><file name="Data.php" hash="0397247bf4df2501d4b362320bfe50a3"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Userdata"><file name="Collection.php" hash="17be43339bfc45df194607e7b199061a"/></dir><file name="Userdata.php" hash="1db65e23b797db2473423dddb3a24ded"/></dir><file name="Observer.php" hash="193cbb770526ac7888a43cd2d25be2b7"/><file name="Status.php" hash="c18c0ec1e959837ed37eadc1b2632dad"/><file name="Userdata.php" hash="d6f6670229ef366054852194062da8dd"/></dir><dir name="controllers"><file name="AccountController.php" hash="24cf4c7a03448d4eccbfdda7c453538b"/><dir name="Adminhtml"><file name="IndexController.php" hash="903bd92103e95428f690c6dd8636a2b8"/></dir><file name="IndexController.php" hash="39828eb6985e8364a96a0558b0f72720"/></dir><dir name="etc"><file name="config.xml" hash="851ab11213dcbd98a3f14bfcf85488df"/></dir><dir name="sql"><dir name="userdata_setup"><file name="mysql4-install-0.1.0.php" hash="027c4dbfaec6b1ba9c60058fc1333f85"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="moduels"><file name="Galaxy_Userdata.xml" hash=""/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="userdata.xml" hash="f3e3fb3b3552f2b2f15a69a8ee116254"/></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="userdata.xml" hash="f3e82d2bd45543db434f65c3db22f5e8"/></dir><dir name="template"><dir name="userdata"><file name="userdata.phtml" hash="0eee967778c23c1269145080c969a648"/></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><file name="userdata.js" hash="c8875abc45ee3b520ace8a6af88b7ea9"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

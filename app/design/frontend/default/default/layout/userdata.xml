@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+    <customer_account_create>
+        <reference name="head">
+            <action method="addJs"><script>userdata.js</script></action>
+        </reference>
+		
+		<reference name="content">
+			<block type="userdata/userdata" name="userdata" after="-" template="userdata/userdata.phtml"/>
+		</reference>
+    </customer_account_create>
+	
+	<checkout_onepage_index>
+		 <reference name="head">
+            <action method="addJs"><script>userdata.js</script></action>
+        </reference>
+		<reference name="content">
+			<block type="userdata/userdata" name="userdata" after="-" template="userdata/userdata.phtml"/>
+		</reference>
+	</checkout_onepage_index>
+	
+</layout> 

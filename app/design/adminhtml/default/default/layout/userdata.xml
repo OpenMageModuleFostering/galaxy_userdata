@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout>
+   
+	 <userdata_adminhtml_index_index>
+        
+        <reference name="content">
+           <!-- <block type="interactive/adminhtml_interactive" name="myadmin" template="interactive/interactive.phtml"/>-->
+		   <block type="userdata/adminhtml_userdata" name="userdata" />
+        </reference>
+    </userdata_adminhtml_index_index>
+</layout>
