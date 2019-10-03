@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Galaxy_Userdata",
+    "name": "openmage-module-fostering\/galaxy_userdata",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "this extension will provide users data that comes once to register or checkout page and didn't finished with registration.",
     "authors": [
